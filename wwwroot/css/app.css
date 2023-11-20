@@ -1,2 +1,103 @@
 @import url("https://fonts.googleapis.com/css2?family=Raleway:wght@800&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Poppins:wght@700&display=swap");
+#navbarlayout {
+  background: #9FB0BF;
+  width: 100%;
+  height: 60px;
+  box-shadow: 0px 5px 5px rgba(0, 0, 0, 0.1529411765);
+  display: flex;
+}
+
+#navbarlayout-left {
+  width: 40%;
+  height: 60px;
+  display: flex;
+  align-items: center;
+  justify-content: start;
+}
+#navbarlayout-left #navbarlayout-current-page {
+  background: rgba(131, 145, 158, 0.2);
+  width: 110px;
+  height: 60px;
+  border-radius: 0px 30px 30px 0px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+#navbarlayout-left #navbarlayout-current-page #navbarlayout-current-page-text {
+  background: none;
+  font-family: "poppins";
+  font-size: 15px;
+  color: #012E40;
+}
+
+#navbarlayout-right {
+  width: 60%;
+  height: 60px;
+  display: flex;
+  align-items: center;
+  justify-content: end;
+}
+#navbarlayout-right .navbarlayout-container-items {
+  z-index: 3;
+  cursor: pointer;
+  width: 80px;
+  height: 60px;
+  text-decoration: none;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+}
+#navbarlayout-right .navbarlayout-container-items:hover .navbar-hover-circle {
+  z-index: 1;
+  background: rgba(131, 145, 158, 0.6);
+  transform: scale(1);
+  transition: transform 1s ease-in-out, background 1s ease-in-out;
+}
+#navbarlayout-right .navbar-hover-circle:not(:hover) {
+  z-index: 1;
+  position: fixed;
+  width: 50px;
+  height: 50px;
+  border-radius: 100px;
+  background: rgba(131, 145, 158, 0);
+  transform: scale(0);
+  transition: transform 0.5s ease-in, background 0.5s ease-in;
+  -webkit-backdrop-filter: blur(25px);
+          backdrop-filter: blur(25px);
+}
+#navbarlayout-right .navbarlayout-item {
+  z-index: 2;
+  background: none;
+  font-family: "poppins";
+  font-size: 15px;
+  color: #012E40;
+}
+
+@keyframes HoverNavButtonAnim {
+  0% {
+    background: rgba(131, 145, 158, 0);
+    transform: scale(0);
+  }
+  100% {
+    background: rgba(131, 145, 158, 0.6);
+    transform: scale(1);
+  }
+}
+@keyframes NotHoverNavButtonAnim {
+  0% {
+    background: rgba(131, 145, 158, 0.6);
+    transform: scale(1);
+  }
+  100% {
+    background: rgba(131, 145, 158, 0);
+    transform: scale(0);
+  }
+}
+* {
+  background: #F2F2F2;
+  padding: 0;
+  margin: 0;
+  max-width: 100%;
+}
