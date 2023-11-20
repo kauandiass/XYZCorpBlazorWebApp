@@ -27,12 +27,6 @@
             font-family: "poppins";
             font-size: 15px;
             color: $color-04A;
-            // @media(max-width:681px) {
-            //     font-size: 10px;
-            // }
-            // @media(max-width:454px) {
-            //     font-size: 5px;
-            // }
         }
     }
 }
@@ -66,10 +60,8 @@
                 background: rgba($color-03B, 0.6);
                 transform: scale(1);
                 transition: transform 1s ease-in-out, background 1s ease-in-out;
-
             }
         }
-
     }
 
     .navbar-hover-circle:not(:hover) {
@@ -82,18 +74,6 @@
         transform: scale(0);
         transition: transform 0.5s ease-in, background 0.5s ease-in;
         backdrop-filter: blur(25px);
-        // @media(max-width:907px) {
-        //     width: 30px;
-        //     height: 30px;
-        // }
-        // @media(max-width:454px) {
-        //     width: 20px;
-        //     height: 20px;
-        // }
-        // @media(max-width:341px) {
-        //     width: 10px;
-        //     height: 10px;
-        // }
     }
 
     .navbarlayout-item {
@@ -102,19 +82,7 @@
         font-family: "poppins";
         font-size: 15px;
         color: $color-04A;
-        // @media(max-width:907px) {
-        //     font-size: 5px;
-        // }
-        // @media(max-width:454px) {
-        //     font-size: 5px;
-        // }
-        // @media(max-width:341px) {
-        //     font-size: 2px;
-        // }
     }
-
-
-
 }
 
 @keyframes HoverNavButtonAnim {
@@ -130,18 +98,3 @@
         transform: scale(1);
     }
 }
-
-@keyframes NotHoverNavButtonAnim {
-    0% {
-        background: rgba($color-03B, 0.6);
-
-        transform: scale(1);
-    }
-
-    100% {
-        background: rgba($color-03B, 0);
-
-        transform: scale(0);
-    }
-}
-
