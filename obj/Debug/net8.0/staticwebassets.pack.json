@@ -1,0 +1,41 @@
+{
+  "Files": [
+    {
+      "Id": "D:\\Documents\\Csharp\\ASPNET\\Blazor\\XYZCorpBlazorWebApp\\wwwroot\\bootstrap\\bootstrap.min.css",
+      "PackagePath": "staticwebassets\\bootstrap\\bootstrap.min.css"
+    },
+    {
+      "Id": "D:\\Documents\\Csharp\\ASPNET\\Blazor\\XYZCorpBlazorWebApp\\wwwroot\\bootstrap\\bootstrap.min.css.map",
+      "PackagePath": "staticwebassets\\bootstrap\\bootstrap.min.css.map"
+    },
+    {
+      "Id": "D:\\Documents\\Csharp\\ASPNET\\Blazor\\XYZCorpBlazorWebApp\\wwwroot\\favicon.png",
+      "PackagePath": "staticwebassets\\favicon.png"
+    },
+    {
+      "Id": "D:\\Documents\\Csharp\\ASPNET\\Blazor\\XYZCorpBlazorWebApp\\wwwroot\\favicon_blazor_01.png",
+      "PackagePath": "staticwebassets\\favicon_blazor_01.png"
+    },
+    {
+      "Id": "D:\\Documents\\Csharp\\ASPNET\\Blazor\\XYZCorpBlazorWebApp\\wwwroot\\scss\\app.scss",
+      "PackagePath": "staticwebassets\\scss\\app.scss"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.XYZCorpBlazorWebApp.Microsoft.AspNetCore.StaticWebAssets.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.build.XYZCorpBlazorWebApp.props",
+      "PackagePath": "build\\XYZCorpBlazorWebApp.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.buildMultiTargeting.XYZCorpBlazorWebApp.props",
+      "PackagePath": "buildMultiTargeting\\XYZCorpBlazorWebApp.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.buildTransitive.XYZCorpBlazorWebApp.props",
+      "PackagePath": "buildTransitive\\XYZCorpBlazorWebApp.props"
+    }
+  ],
+  "ElementsToRemove": []
+}
