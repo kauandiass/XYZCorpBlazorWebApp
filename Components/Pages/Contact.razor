@@ -1,5 +1,7 @@
 ﻿@page "/Contact"
+@inject IJSRuntime JSRuntime
 @rendermode InteractiveServer
+
 
 <header id="header-contactpage">
     <nav id="navbarlayout">
@@ -26,10 +28,11 @@
     </nav>
 </header>
 <main id="main-contactpage">
-
+    
 </main>
 <footer id="footer-contactpage">
-
+    <hr id="division-footer-contactpage">
+    <p id="copy-text-contactpage">&copy; 2023 XYZCorp. Todos os direitos reservados.</p>
 </footer>
 
 @code {

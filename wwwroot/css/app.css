@@ -4,10 +4,10 @@
   background: #F2F2F2;
   padding: 0;
   margin: 0;
-  max-width: 100%;
 }
 
 #navbarlayout {
+  position: fixed;
   background: #9FB0BF;
   width: 100%;
   height: 60px;
@@ -91,4 +91,129 @@
     background: rgba(131, 145, 158, 0.6);
     transform: scale(1);
   }
+}
+#header-aboutpage {
+  width: 100%;
+  height: 60px;
+}
+
+#main-aboutpage {
+  width: 100%;
+  height: 2500px;
+}
+@media (max-width: 2041px) {
+  #main-aboutpage {
+    height: 1500px;
+  }
+}
+@media (max-width: 1361px) {
+  #main-aboutpage {
+    height: 1000px;
+  }
+}
+
+#footer-aboutpage {
+  width: 100%;
+  height: 60px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+#division-footer-aboutpage {
+  width: 95%;
+  height: 3px;
+  border: none;
+  border-radius: 5px;
+  margin: 0;
+  padding: 0;
+}
+
+#copy-text-aboutpage {
+  background: none;
+  margin-top: 15px;
+}
+
+#header-contactpage {
+  width: 100%;
+  height: 60px;
+}
+
+#main-contactpage {
+  width: 100%;
+  height: 2500px;
+}
+@media (max-width: 2041px) {
+  #main-contactpage {
+    height: 1500px;
+  }
+}
+@media (max-width: 1361px) {
+  #main-contactpage {
+    height: 1000px;
+  }
+}
+
+#footer-contactpage {
+  width: 100%;
+  height: 60px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+#division-footer-contactpage {
+  width: 95%;
+  height: 3px;
+  border: none;
+  border-radius: 5px;
+  margin: 0;
+  padding: 0;
+}
+
+#copy-text-contactpage {
+  background: none;
+  margin-top: 15px;
+}
+
+#header-homepage {
+  width: 100%;
+  height: 60px;
+}
+
+#main-homepage {
+  width: 100%;
+  height: 2500px;
+}
+@media (max-width: 2041px) {
+  #main-homepage {
+    height: 1500px;
+  }
+}
+@media (max-width: 1361px) {
+  #main-homepage {
+    height: 1000px;
+  }
+}
+
+#footer-homepage {
+  width: 100%;
+  height: 60px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+#division-footer-homepage {
+  width: 95%;
+  height: 3px;
+  border: none;
+  border-radius: 5px;
+  margin: 0;
+  padding: 0;
+}
+
+#copy-text-homepage {
+  background: none;
+  margin-top: 15px;
 }
